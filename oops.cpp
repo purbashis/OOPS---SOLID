@@ -148,3 +148,20 @@ private:
 2. complex details are hidden.
 
 */
+
+/*
+summary: 
+
+Object-Oriented Programming means building software by organizing code into objects — 
+
+like real-life things. OOP mainly has four pillars.
+
+
+First is Encapsulation, which means wrapping data and functions together and protecting them.
+
+Second is Inheritance, where one class can reuse properties of another — like a Child extending a Parent.
+
+Third is Polymorphism, where the same function behaves differently — for example, sound() of a Dog vs a Cat.
+
+Fourth is Abstraction, where we hide complexity and show only important details.
+*/
