@@ -58,4 +58,93 @@ public:
 
 // 2️⃣ Inheritance Example
 
+#include <iostream>
+using namespace std;
+class Dog
+{
+public:
+    void bark()
+    {
+        cout << "Bark!";
+    }
+};
 
+class Puppy : public Dog
+{ 
+    // Puppy inherits Dog
+
+};
+
+/*
+✔ What this shows:
+1. Puppy can use bark() from Dog.
+
+2. code reuse through inheritance.
+*/
+
+
+// 3️⃣ Polymorphism Example
+
+class Animal
+{
+public:
+    virtual void sound()
+    {
+        cout << "Some sound";
+    }
+};
+
+class Dog : public Animal
+{
+public:
+    void sound() override
+    {
+        cout << "Bark";
+    }
+};
+
+class Cat : public Animal
+{
+public:
+    void sound() override
+    {
+        cout << "Meow";
+    }
+};
+
+
+/*
+✔ What this shows:
+1. sound() behaves differently for Dog & Cat.
+
+2. same function name, different behaviors.
+
+*/
+
+// 4️⃣ Abstraction Example
+
+class Car
+{
+public:
+    void startCar()
+    {
+        startEngine(); // hidden function
+    }
+
+private:
+    void startEngine()
+    {
+        // complex logic hidden from user
+        cout << "Engine started";
+    }
+};
+
+
+/*
+✔ What this shows:
+
+1. User calls startCar() without knowing engine details.
+
+2. complex details are hidden.
+
+*/
