@@ -1,9 +1,10 @@
 /*
-Object - Oriented Programming… or OOPS…
-                                      is a way of writing code using real -
-                                      life concepts.
 
-                    In OOPS,
+Object - Oriented Programming… or OOPS…
+is a way of writing code using real -
+life concepts.
+
+    In OOPS,
     everything is treated as an object…
     with properties… and behaviors.
 
@@ -24,8 +25,6 @@ Object - Oriented Programming… or OOPS…
 
     Overall…
         OOPS makes code clean… reusable… and easy to maintain.
-
-
 
 */
 
@@ -152,16 +151,21 @@ private:
 /*
 summary: 
 
-Object-Oriented Programming means building software by organizing code into objects — 
-
+Object-Oriented Programming means
+ building software by organizing code into objects — 
 like real-life things. OOP mainly has four pillars.
 
 
-First is Encapsulation, which means wrapping data and functions together and protecting them.
+First is Encapsulation, which means wrapping data 
+and functions together and protecting them.
 
-Second is Inheritance, where one class can reuse properties of another — like a Child extending a Parent.
+Second is Inheritance, where one class can reuse properties of another — 
+like a Child extending a Parent.
 
-Third is Polymorphism, where the same function behaves differently — for example, sound() of a Dog vs a Cat.
+Third is Polymorphism, where the same function behaves differently — 
+for example, sound() of a Dog vs a Cat.
 
 Fourth is Abstraction, where we hide complexity and show only important details.
+
+Overall, OOP helps make code cleaner, reusable,
 */
